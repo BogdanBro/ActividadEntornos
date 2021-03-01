@@ -1,6 +1,6 @@
 package actividad;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Criba {
 // Generar números primos de 1 a max
@@ -15,7 +15,7 @@ public class Criba {
 				esPrimo[i] = true;
 // Eliminar el 0 y el 1, que no son primos
 			esPrimo[0] = esPrimo[1] = false;
-// Criba
+			
 			for (i = 2; i < Math.sqrt(dim) + 1; i++) {
 				if (esPrimo[i]) {
 // Eliminar los múltiplos de i
