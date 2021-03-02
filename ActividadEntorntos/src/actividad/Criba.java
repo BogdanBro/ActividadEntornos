@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Criba {
 	
 	/**
-	 * 
+	 * Metodo necesario para hacer los metodos de generacion de Primos
 	 * @param max
 	 * @return dim
 	 */
@@ -42,9 +42,9 @@ public class Criba {
 	}
 	
 	/**
-	 * 
+	 * Metodo que devuelve un array de booleanos , en el que si es true, es primo
 	 * @param max
-	 * @return Un array de booleanos , en el que si es true, es primo
+	 * @return 
 	 */
 	
 public static boolean[] esPrimo(int max) {
@@ -71,9 +71,9 @@ public static boolean[] esPrimo(int max) {
 	}
 	
 /**
- * 
+ * Array de enteros con todos los primos desde el 2 hasta el nº indicado por el usuario
  * @param max
- * @return Array de enteros con todos los primos desde el 2 hasta el nº indicado por el usuario
+ * @return 
  */
 
 	public static int[] generarPrimos(int max) {
