@@ -1,6 +1,6 @@
 package actividad;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Criba {
 	
