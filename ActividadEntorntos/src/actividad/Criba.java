@@ -2,6 +2,13 @@ package actividad;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * La clase Criba sirve para indicar los nº primos del 1 hasta el numero indicado por el usuario. 
+ * @author Bogdan Broicea
+ * @version 1.0.0
+ */
+
 public class Criba {
 // Generar números primos de 1 a max
 	public static int[] generarPrimos(int max) {
